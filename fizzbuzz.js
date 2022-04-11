@@ -9,10 +9,10 @@ function fizzbuzz (lista){
             console.log(lista[i]+"fizzbuzz")
         }
         else if((lista[i]% 3===0)){
-            console.log(lista[i]+"buzz")
+            console.log(lista[i]+"fizz")
         }
         else if((lista[i]% 5===0)){
-            console.log(lista[i]+"fizz")
+            console.log(lista[i]+"buzz")
         }
     }
 }
